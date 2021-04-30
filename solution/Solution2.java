@@ -1,3 +1,5 @@
+package leetcode.answer.solution;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -8,7 +10,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int carryBit = 0;
